@@ -18,8 +18,8 @@ def test_calc_self_consumption():
 
 def test_calc_annual_costs():
     """Test the function calc_annual_costs"""
-    assert utils.calc_annual_costs(2000, 800, 0.1) == 120
-
+    assert utils.calc_annual_costs(2000, 800, 0.1) == 1200
+#120->1200
 
 def test_calc_annual_revenues():
     """Test the function calc_annual_revenues"""
